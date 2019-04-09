@@ -117,7 +117,7 @@ Este documento se compuso con harto copy/paste
             for (var x = 0; x < data.length; x++) {
                 // con esto se agregan puntos en el plano por cada dato
                  var greenIcon = L.icon({
-                iconUrl: 'media/alien.png',
+                iconUrl: 'Media/alien.png',
                 iconSize: [30, 30], // size of the icon
                 });
                 L.marker([data[x].coordenadas[0], data[x].coordenadas[1]], {icon: greenIcon}).addTo(mymap).bindPopup(data[x].lugar).closePopup();
